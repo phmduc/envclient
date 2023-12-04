@@ -1,0 +1,111 @@
+.notifition {
+  width: 100%;
+  height: calc(100vh - 68px );
+  background-color: #f2f2f2;
+  overflow: scroll;
+}
+
+.notifition .icon-left {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.notifition .icon-right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.notifition .icon-right i {
+  font-size: 1.5rem;
+}
+
+.notifition h6 {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.notifition .list-item .item .item-title img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.notifition .list-item .item{
+    background-color: white;
+    text-decoration: none;
+    font-size: .8rem;
+    padding: .5rem;
+    margin-top: 1rem;
+}
+.notifition .list-item .item div{
+  width: max-content;
+  margin-top: 1rem;
+  padding: 1px 7px;
+  font-size: .7rem;
+  border-radius: 10px;
+}
+.notifition .list-item .item span{
+  font-weight: 500;
+  line-height: 1;
+}
+.notifition .list-item .item .tax, .notifition .list-item .item .insurance{
+  background-color: #D1ECF1;
+  color: #0C5460;
+}
+
+.notifition .list-item .item .deposit, .notifition .list-item .item .verified, .notifition .list-item .item .unlocked, .notifition .list-item .item .invest{
+  background-color: #D4EDDA;
+  color: #155724;
+}
+.notifition .list-item .item .cashout, .notifition .list-item .item .locked{
+  background-color: #F8D7DA;
+  color: #721C24;
+}
+
+.notifition .list-item .item .warning{
+  background-color: #FFF3CD;
+  color: #856404;
+}
+.notifition .list-item .item .item-title p {
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 14px;
+}
+.notifition .time{
+  background-color: unset;
+  display: block;
+  padding: .05rem .5rem ;
+  border: 1px solid #999999;
+  display: inline-block;
+  font-size: .8rem;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+}
+.notifition .time:not(:first-child){
+  margin-top: 2.5rem;
+}
+.notifition .sec-date{
+    margin-left: 1rem;
+}
+
+.notifition .sec-date span{
+    color: #989898;
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: .5rem;
+}
+
+.notifition .main-content .pages .item-page span{
+    font-size: 14px;
+    opacity: .8;
+    padding: .5rem;
+    margin: .3rem;
+    background: #fff;
+}
+
